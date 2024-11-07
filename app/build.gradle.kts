@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.lion.gittest"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.lion.gittest"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -32,6 +32,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+
+    viewBinding {
+        enable = true
     }
 }
 
